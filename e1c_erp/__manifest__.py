@@ -12,7 +12,7 @@
 
     # any module necessary for this one to work correctly
     'depends': [
-        'e1c_data'
+        'e1c_view'
     ],
 
     # always loaded

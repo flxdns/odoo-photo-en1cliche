@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "e1c_data",
+    'name': "e1c_view",
     'summary': """""",
     'description': """""",
     'author': "En 1 Cliché",
@@ -12,13 +12,11 @@
 
     # any module necessary for this one to work correctly
     'depends': [
-        'e1c_config',
+        'e1c_data'
     ],
 
     # always loaded
     'data': [
-        'data/company.xml',
-        'data/prestation_stage.xml'
     ],
     # only loaded in demonstration mode
     'demo': [

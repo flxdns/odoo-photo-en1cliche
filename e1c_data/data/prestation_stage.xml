@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="etape_premier_appel" model="pc.prestation.stage">
+            <field name="name">Premier appel</field>
+            <field name="sequence">12</field>
+        </record>
+        <record id="pc_photos.etape_acompte_verse" model="pc.prestation.stage">
+            <field name="name">Arrhes versées</field>
+        </record>
+        <record id="etape_rencontre" model="pc.prestation.stage">
+            <field name="name">Rencontre</field>
+            <field name="sequence">41</field>
+        </record>
+    </data>
+</odoo>
